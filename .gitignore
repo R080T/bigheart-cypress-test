@@ -1,0 +1,47 @@
+# Dependency directories
+node_modules/
+
+# Cypress specific
+cypress/downloads/
+cypress/screenshots/
+cypress/videos/
+cypress/fixtures/example.json
+
+# Logs and databases
+*.log
+*.sqlite
+*.sqlite3
+
+# Environment files
+.env
+.env.local
+.env*.local
+
+# Editor/IDE specific
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build files
+dist/
+build/
+coverage/
+.nyc_output/
+
+# Cache directories
+.cache/
+.tmp/\ncypress.env.json
+\ncypress.env.json
